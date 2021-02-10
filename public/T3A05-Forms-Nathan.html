@@ -1,18 +1,85 @@
 <h1 align=center>Forms by Nathan</h1>
 
+<form>
+<input type="radio" name="colour" value="blue" checked><font color="MediumBlue">blue<br>
+<input type="radio" name="colour" value="orange"><font color="OrangeRed"> orange<br>
+<input type="radio" name="colour" value="red"><font color="Crimson">red<br>  
+<input type="radio" name="colour" value="green"><font color="Lime"> green<br>
+<input type="radio" name="colour" value="yellow"><font color="Gold"> yellow<br>
+<input type="radio" name="colour" value="other"><font color="Navy"> other<br>
+</form> 
+
+</body>
+</html>
+
 <form action="/action_page.php">
-  <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+  <font color="Aquamarine">First name:<br>
+  <input type="text" name="firstname" value="">
+  <br>
+  <font color="PaleVioletRed">Last name:<br>
+  <input type="text" name="lastname" value="">
   <br><br>
+
+  </body>
+  </html>
+
+<h2><font color="DarkOrchid">favourite car brands</h2>
+<form action="/action_page.php">
+  <input list="car brands" name="car brands">
+  <datalist id="car brands">
+    <option value="Chrysler">
+    <option value="Ford">
+    <option value="Honda">
+    <option value="Toyota">
+    <option value="Chevrolet">
+  </datalist>
 </form>
 
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+<h2><font color="GreenYellow">click here</h2>
+<button type="button" onclick="alert('thanks for clicking me!')">Click Me!</button>
+
+</body>
+</html>
+
+<form action="">
+<font color="DarkTurquoise">User name:<br>
+<input type="text" name="userid">
+<br>
+<font color="Aqua">User password:<br>
+<input type="password" name="psw">
+</form>
+
+</body>
+</html>
 
 <form action="/action_page.php">
-  <label for="cars">Choose a car:</label>
-  <select id="cars" name="cars">
-    <option value="volvo">Volvo</option>
-    <option value="saab">Saab</option>
-    <option value="fiat">Fiat</option>
-    <option value="audi">Audi</option>
-  </select>
-  <input type="submit">
+
+<form action="/action_page.php">
+  Select images: <input type="file" name="img" multiple>
+  
 </form>
+
+<form action="/action_page.php">
+  <font color="DeepPink">Select your favorite color:
+  <input type="color" name="favcolor" value="#ff0000">
+
+</form>
+
+<form action="/action_page.php">
+  <font color="LightPink">Birthday (date and time):
+  <input type="datetime-local" name="bdaytime">
+
+</form>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
