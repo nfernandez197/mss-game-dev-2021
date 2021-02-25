@@ -101,3 +101,26 @@ function myFunction() {
 </body>
 </html>
 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#myDIV {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<div id="myDIV">This example uses the addEventListener() method to attach a "wheel" event to a DIV element. Roll the mouse wheel over me - either up or down!</div>
+
+<script>
+document.getElementById("myDIV").addEventListener("wheel", myFunction);
+
+function myFunction() {
+  this.style.fontSize = "35px";
+}
+</script>
+
+</body>
+</html>
