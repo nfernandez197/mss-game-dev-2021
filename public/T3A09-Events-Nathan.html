@@ -17,7 +17,30 @@
   <body style="background-color:MediumTurquoisee;">
   <style>
   </style> 
-      
+  
+        <!DOCTYPE html>
+<html>
+<head>
+<style>
+#myDIV {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<div id="myDIV">This is an example of Mouse Wheel Interaction - scroll either up or down with the mouse wheel!</div>
+
+<script>
+document.getElementById("myDIV").addEventListener("wheel", myFunction);
+
+function myFunction() {
+  this.style.fontSize = "35px";
+}
+</script>
+
+</body>
+</html>
   Output span: <span id="mySpan01">...</span><br><br>
       
       Traditional onclick event: <input type=button value="onclick event" onclick="{
@@ -92,7 +115,7 @@ function myFunction() {
 </body>
 </html>
 
-     <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <body onload="myFunction()">
 
@@ -101,29 +124,7 @@ function myFunction() {
   alert("Page is loaded");
 }
 </script>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-#myDIV {
-  border: 1px solid black;
-}
-</style>
-</head>
-<body>
-
-<div id="myDIV">This is an example of Mouse Wheel Interaction - scroll either up or down with the mouse wheel!</div>
-
-<script>
-document.getElementById("myDIV").addEventListener("wheel", myFunction);
-
-function myFunction() {
-  this.style.fontSize = "35px";
-}
-</script>
 
 </body>
 </html>
+
