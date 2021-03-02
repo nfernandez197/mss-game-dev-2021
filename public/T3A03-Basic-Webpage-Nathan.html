@@ -1,8 +1,36 @@
 <h1 align=center>Basic Webpage by Nathan</h1>
 <html>
-<body style="background-color:DarkSlateBlue;">
+<head>
+<!DOCTYPE html>
+<html>
+ <body style="background-color:DarkSlateBlue;">
+<head>
 <style>
- h1 {
+body {
+    -webkit-animation: colorchange 10s infinite; 
+    animation: colorchange 10s infinite;
+}
+@-webkit-keyframes colorchange {
+     0%  {background: #9400D3;}
+    15%  {background: #4B0082;}
+    30%  {background: #0000FF;}
+    45%  {background: #00FF00;}
+    60%  {background: #FFFF00;}
+    75%  {background: #FF7F00;}
+    90%  {background: #FF0000;}
+    100% {background: #000080;}
+}
+@keyframes colorchange {
+     0%  {background: #9400D3;}
+    15%  {background: #4B0082;}
+    30%  {background: #0000FF;}
+    45%  {background: #00FF00;}
+    60%  {background: #FFFF00;}
+    75%  {background: #FF7F00;}
+    90%  {background: #FF0000;}
+   100%  {background: #000080;}
+}   
+  h1 {
   text-shadow: 0 0 3px #FF0000;
 }
  table, th, td {
@@ -13,8 +41,12 @@ th, td {
   padding: 5px;
   text-align: left;
 }
- </style>
- 
+</style>
+</head>
+<body>
+</body>
+</html>
+
 <font color="DeepSkyBlue">Picture:
  
 <img src="fish.jpg" width="600" height="400"><br><br>
