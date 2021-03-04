@@ -4,7 +4,9 @@ Store this input variable into x:
 <input id="myText01" type=test value=3 ><br><br>
 
 <input type=button value="Show X" onclick="{
-    //x = document.getElementById('myspan01').innerHTML = 'X is '+x
+      X = document.getElementById('myText01').value
+    //x alert('x: ' + x)
+     document.getElementById('mySpan01').innerHTML = 'X is '+x
                                            
 }"><br><br>
   
@@ -14,10 +16,10 @@ Store this input variable into x:
 store this input variable into x:
 <input id="myText02" type=text value=3 ><br><br>
 
-<input type=button value="square X" onclick="{
+<input type=button value="Square X" onclick="{
     x = document.getElementById('myText02').value
    // alert('x: ' + x)
-    document.getElementById('myspan02').innerHTML = x+' <b>squared</b> is ' + x*x
+    document.getElementById('mySpan02').innerHTML = x+' <b>squared</b> is ' + x*x
                                              
 }"><br><br>
 
