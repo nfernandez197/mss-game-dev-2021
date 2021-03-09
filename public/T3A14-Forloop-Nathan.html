@@ -15,3 +15,18 @@ document.getElementById('mySpan01').innerHTML = myTemp
 }"><br><br>
 
 <span id="mySpan01" >...</Span><br><br>
+
+Store this input variable into x:
+<input id="myText02" type=text value=4 ><br><br>
+
+<input type=button value="Show X" onclick="{
+                                           
+let myTemp= '';
+for(let i=30; i<60; i++){
+myTemp += 'Loop Number: ' + i + '<br>';
+}
+document.getElementById('mySpan02').innerHTML = myTemp
+                                           
+}"><br><br>
+
+<span id="mySpan02" >...</Span><br><br>
