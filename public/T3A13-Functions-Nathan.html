@@ -21,3 +21,23 @@ function myAdvancedFun(x,y){
       document.getElementById('mySpan01').innerHTML = myAdvancedFun(3,2)
 }"><br><br>
 <Span id="mySpan01" >...</Span><br><br>
+
+<script>
+function myBasicFun(){
+  document.getElementById('mySpan01').innerHTML = "have a nice day"
+}
+  
+function myAdvancedFun(x,y){
+      return x*y
+}
+</script>
+
+<input id="myText01" type=text value=3 ><br><br>
+<input type=button value="Run Function" onclick="{
+   //alert('button works')
+   myBasicFun()
+}"><br><br>
+<input type=button value="Advanced" onclick="{
+      document.getElementById('mySpan01').innerHTML = myAdvancedFun(5,5)
+}"><br><br>
+<Span id="mySpan01" >...</Span><br><br>
