@@ -16,107 +16,18 @@ document.getElementById('mySpan01').innerHTML = myTemp
 
 <span id="mySpan01" >...</Span><br><br>
 
-Store this input variable into x:
-<input id="myText02" type=text value=4 ><br><br>
+<p id="demo"></p>
 
-<input type=button value="Show X" onclick="{
-                                           
-let myTemp= '';
-for(let i=30; i<60; i++){
-myTemp += 'Loop Number: ' + i + '<br>';
+<script>
+var cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+var text = "";
+var i;
+for (i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
 }
-document.getElementById('mySpan02').innerHTML = myTemp
-                                           
-}"><br><br>
-
+document.getElementById("mySpan02").innerHTML = text;
 <span id="mySpan02" >...</Span><br><br>
+</script>
 
-Store this input variable into x:
-<input id="myText03" type=text value=5 ><br><br>
-
-<input type=button value="Show X" onclick="{
-                                           
-let myTemp= '';
-for(let i=60; i<90; i++){
-myTemp += 'Loop Number: ' + i + '<br>';
-}
-document.getElementById('mySpan03').innerHTML = myTemp
-                                           
-}"><br><br>
-
-<span id="mySpan03" >...</Span><br><br>
-
-Store this input variable into x:
-<input id="myText04" type=text value=6 ><br><br>
-
-<input type=button value="Show X" onclick="{
-                                           
-let myTemp= '';
-for(let i=90; i<120; i++){
-myTemp += 'Loop Number: ' + i + '<br>';
-}
-document.getElementById('mySpan04').innerHTML = myTemp
-                                           
-}"><br><br>
-
-<span id="mySpan04" >...</Span><br><br>
-
-Store this input variable into x:
-<input id="myText05" type=text value=7 ><br><br>
-
-<input type=button value="Show X" onclick="{
-                                           
-let myTemp= '';
-for(let i=120; i<150; i++){
-myTemp += 'Loop Number: ' + i + '<br>';
-}
-document.getElementById('mySpan05').innerHTML = myTemp
-                                           
-}"><br><br>
-
-<span id="mySpan05" >...</Span><br><br>
-
-Store this input variable into x:
-<input id="myText06" type=text value=8 ><br><br>
-
-<input type=button value="Show X" onclick="{
-                                           
-let myTemp= '';
-for(let i=150; i<180; i++){
-myTemp += 'Loop Number: ' + i + '<br>';
-}
-document.getElementById('mySpan06').innerHTML = myTemp
-                                           
-}"><br><br>
-
-<span id="mySpan06" >...</Span><br><br>
-
-Store this input variable into x:
-<input id="myText07" type=text value=9 ><br><br>
-
-<input type=button value="Show X" onclick="{
-                                           
-let myTemp= '';
-for(let i=180; i<210; i++){
-myTemp += 'Loop Number: ' + i + '<br>';
-}
-document.getElementById('mySpan07').innerHTML = myTemp
-                                           
-}"><br><br>
-
-<span id="mySpan07" >...</Span><br><br>
-
-Store this input variable into x:
-<input id="myText08" type=text value=10 ><br><br>
-
-<input type=button value="Show X" onclick="{
-                                           
-let myTemp= '';
-for(let i=210; i<240; i++){
-myTemp += 'Loop Number: ' + i + '<br>';
-}
-document.getElementById('mySpan08').innerHTML = myTemp
-                                           
-}"><br><br>
-
-<span id="mySpan08" >...</Span><br><br>
+</body>
+</html>
