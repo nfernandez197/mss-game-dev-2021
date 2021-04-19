@@ -35,12 +35,10 @@ What we are going to do is take CSS positioning and Forms button and make someth
 <input type=button value="Move 10 pixels right" onClick="{
    //alert( parseInt(document.getElementById('mySpan01').style.left) ) 
                           
-document.getElementById('mySpan01').style.left = 
-parseInt(document.getElementById('mySpan01').style.left) + document.myXpixels
+document.getElementById('mySpan01').style.left = parseInt(document.getElementById('mySpan01').style.left) + document.myXpixels
 
 if(myHitOther('mySpan01', 'mySpan02')){
-   document.getElementById('mySpan01').style.left = 
-      parseInt(document.getElementById('mySpan01').style.left) - document.myXpixels
+   document.getElementById('mySpan01').style.left = parseInt(document.getElementById('mySpan01').style.left) - document.myXpixels
 }
 
                         
