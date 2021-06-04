@@ -16,6 +16,12 @@ function myHitOther(my1,my2){
        return true
    }
 }
+function myCheckAll(){
+  if(myHitOther('mySpan01', 'mySpan02')){
+    document.getElementById('mySpan02').style.left = '-400px'
+    alert('You Win!')
+    location = 'Final-Project-level2-Nathan.html'
+  }
 
 </script>
 
